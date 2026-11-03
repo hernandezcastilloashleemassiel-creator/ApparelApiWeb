@@ -7,7 +7,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
   dotnetVersion: '8.0.x'
-  proyecto: 'ApparelApiWeb/ApparelApiWeb/ApparelApiWeb.csproj'
+  proyecto: '**/ApparelApiWeb.csproj'
 
 stages:
 
